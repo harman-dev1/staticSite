@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "next build",
-    "start": "next start"
-  },
+    "scripts": {
+  "build": "next build && next export"
+   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
